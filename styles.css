@@ -26,9 +26,13 @@ nav ul{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
 }
 nav li{
   height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 nav a{
   height: 100%;
