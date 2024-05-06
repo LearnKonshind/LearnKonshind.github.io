@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
 :root{
     --white: #f9f9f9;
-    --black: #000;
-    --gray: #224;
+    --black: #113;
+    --gray: #444;
 } /* variables*/
 
 /* Reset */
@@ -51,7 +51,7 @@ ul{
     color: var(--white);
 }
 .menu a:hover{
-    background-color: var(--gray);
+    background-color: var(--white);
 }
 .nav{
     max-height: 0;
