@@ -4,7 +4,7 @@
 :root{
     --white: #f9f9f9;
     --black: #000;
-    --gray: #222;
+    --gray: #224;
 } /* variables*/
 
 /* Reset */
@@ -62,7 +62,7 @@ ul{
 .hamb{
     cursor: pointer;
     float: right;
-    padding: 40px 20px;
+    padding: 30px 10px;
 }/* Style label tag */
 
 .hamb-line {
