@@ -60,9 +60,11 @@ nav li:first-child{
 }
 .sidebar li{
   width: 100%;
+  color: #113;
 }
 .sidebar a{
   width: 100%;
+  color: #113;
 }
 .menu-button{
   display: none;
