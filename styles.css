@@ -1,12 +1,10 @@
 /* Theming */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"); /* import font */
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
 :root{
     --white: #f9f9f9;
     --black: #113;
     --gray: #444;
 } /* variables*/
-
-/* Reset */
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +12,9 @@
 }
 body{
     background-color: var(--white);
-    font-family: "Poppins", sans-serif;
+    font-family: "Neuton", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 a{
     text-decoration: none;
@@ -124,7 +124,6 @@ ul{
     .menu a:hover{
         background-color: transparent;
         color: var(--black);
-
     }
 
     .hamb{
