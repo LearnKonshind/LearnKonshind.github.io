@@ -17,6 +17,8 @@ body{
 }
 nav{
   background-color: var(--black);
+  position: -webkit-sticky;
+  position: sticky;
 }
 nav ul{
   width: 100%;
