@@ -10,7 +10,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <title>Lesson 0 | #1 Free Online Konshind Language Course</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -38,8 +38,10 @@
           const sidebar = document.querySelector('.sidebar')
           sidebar.style.display = 'none'
         }
-    	$("#toggleNext").click(function(){
-            $("#next").slideToggle();
+        $(document).ready(function(){
+    	  $("#toggleNext").click(function(){
+              $("#Next").slideToggle();
+          });
         });
       </script>
     </header>
@@ -110,7 +112,7 @@ löž<br>
 kűlin<br>
 edzidadh<br>
 konšind<br>
-xējān<br></p>
+xējān<br><br></p>
         <p style="text-align: center;font-size: 2vw;color:#113;"><a id="toggleNext" href="javascript:void(0);" style="text-align: center;font-size: 2vw;color:#113;text-decoration:none;">Show</a></p>
         <p style="text-align: center;font-size: 2vw;color:#113;display:none;" id="Next">‘yih’<br>
 ‘lewj’<br>
